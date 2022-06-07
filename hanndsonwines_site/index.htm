@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" href="src/fav.png">
+    <title>Hands On Wines</title>
+</head>
+  <body>
+    <div class="header">
+      <div class="logo">
+        <img src="src/handsonwineslogo.png" alt="">
+      </div>
+      <div class="header_text">
+
+      </div>
+    </div>
+    <div class="line"></div>
+    <div class="wrapper">
+      <p>
+        Upload billede og få tilføjet dit logo
+      </p>
+
+      <label for="upload" class="custom-file-upload">
+        <h3>Upload billede</h3>
+        <img src="src/camera.png" alt="">
+        <input id="upload" type="file" accept="image/*" />
+      </label>
+      <div id="images" style="visibility: hidden;">
+          <img id="originalImage" />
+        <h2>Billede med logo</h2>
+        <img id="watermakedImage" />
+
+    </div>
+  </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
